@@ -7,12 +7,12 @@ import java.util.Date;
 public class Olimpiadas {
     private int numeroDeParticipantes;
     private int numeroDeMedallas;
-    private Atletismo nombreDeLasOlimpiadas;
+    private string nombreDeLasOlimpiadas;
     private Date fechaDeInicio;
     private int numeroDeCompetencias;
     private boolean hayCompetencia;
 
-    public Olimpiadas(int numeroDeParticipantes, int numeroDeMedallas, Atletismo nombreDeLasOlimpiadas, Date fechaDeInicio, int numeroDeCompetencias, boolean hayCompetencia) {
+    public Olimpiadas(int numeroDeParticipantes, int numeroDeMedallas, string nombreDeLasOlimpiadas, Date fechaDeInicio, int numeroDeCompetencias, boolean hayCompetencia) {
         this.numeroDeParticipantes = numeroDeParticipantes;
         this.numeroDeMedallas = numeroDeMedallas;
         this.nombreDeLasOlimpiadas = nombreDeLasOlimpiadas;
